@@ -1,0 +1,15 @@
+{
+  "name": "testfw",
+  "version": "1.0.0",
+  "description": "invia dati a usb per accendere un led da mcu",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "GiulioM",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^21.1.1",
+    "serialport": "^10.4.0"
+  }
+}
